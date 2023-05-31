@@ -150,3 +150,52 @@ body {
 }
 
 /* For large devices */
+@media screen and (min-width: 1024px) {
+    .clock {
+        width: 602px;
+        height: 306px;
+        border-width: 4px;
+        box-shadow: 15px 15px 0 hsl(0, 0%, 65%), 30px 30px 0 hsl(75, 4%, 18%),
+            inset 16px 16px 0 hsl(0, 0%, 75%),
+            inset 18px 18px 0 hsl(75, 4%, 65%);
+        column-gap: 3rem;
+    }
+
+    .clock__circle {
+        width: 170px;
+        height: 170px;
+        border-width: 4px;
+    }
+
+    .clock__rounder {
+        width: 8px;
+        height: 8px;
+    }
+
+    .clock__minute {
+        width: 3px;
+        height: 62px;
+    }
+
+    .clock__hour {
+        width: 3px;
+        height: 40px;
+    }
+
+    .clock__date {
+        margin-bottom: 1.5rem;
+    }
+
+    .clock__day-week,
+    .clock__text-ampm {
+        font-size: var(--h2-font-size);
+    }
+
+    .clock__month,
+    .clock__day,
+    .clock__year,
+    .clock__text-hour,
+    .clock__text-minute {
+        font-size: var(--h1-font-size);
+    }
+}
