@@ -112,6 +112,21 @@ body {
     margin-bottom: 1rem;
 }
 
+.clock__day-week,
+.clock__text-ampm {
+    font-size: var(--small-font-size);
+    font-weight: 500;
+}
+
+.clock__month,
+.clock__day,
+.clock__year,
+.clock__text-hour,
+.clock__text-minute {
+    font-size: var(--h2-font-size);
+    font-weight: 600;
+}
+
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
 
